@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { WelcomeMessageComponent } from './welcome-message/welcome-message.component';
+import { NavigatorComponent } from './navigator/navigator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeMessageComponent
+    WelcomeMessageComponent,
+    NavigatorComponent
   ],
   imports: [
     BrowserModule
