@@ -6,12 +6,14 @@ import { WelcomeMessageComponent } from './welcome-message/welcome-message.compo
 import { NavigatorComponent } from './navigator/navigator.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeMessageComponent,
-    NavigatorComponent
+    NavigatorComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
